@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+         <title>formularios html</title>
+            
+        <style> type="text/css"
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            a img{
+                width: 35px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Formularios</h1>
+        </header>
+        <nav>
+            <ul>
+                <a href="../index.html"><img id="enlace-img" src="../imagenes/inicio.png" ></a>
+                <li><a href="../html/formatos.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/elnaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audios.html">Audios</a></li>
+                <li><a href="../html/videos.html">Videos</a></li>
+                <li><a href="../html/formulario.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Formularios: sing in</h2>
+                <p><a href="../index.html">Pagina Principal</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor urna, ornare ac condimentum ac, efficitur eu erat. Integer mattis magna sed hendrerit pharetra. In hac habitasse platea dictumst. Donec efficitur turpis vitae erat fringilla, ac varius libero eleifend. Suspendisse varius lectus eget orci tempus consequat. Proin interdum auctor vulputate. Nullam mattis sem sit amet bibendum convallis. Mauris sodales massa augue, et dictum erat placerat ac. Proin congue, massa ut sodales viverra, sapien velit commodo leo, et volutpat velit dolor at ipsum. Fusce eu sollicitudin neque, eget mollis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis nisi turpis, et porta tortor sollicitudin in. Vivamus sit amet lectus vulputate, blandit libero sit amet.</p>
+                <form action="" method="">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" value>
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" value="">
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formularios: Contact</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor urna, ornare ac condimentum ac, efficitur eu erat. Integer mattis magna sed hendrerit pharetra. In hac habitasse platea dictumst. Donec efficitur turpis vitae erat fringilla, ac varius libero eleifend. Suspendisse varius lectus eget orci tempus consequat. Proin interdum auctor vulputate. Nullam mattis sem sit amet bibendum convallis. Mauris sodales massa augue, et dictum erat placerat ac. Proin congue, massa ut sodales viverra, sapien velit commodo leo, et volutpat velit dolor at ipsum. Fusce eu sollicitudin neque, eget mollis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis nisi turpis, et porta tortor sollicitudin in. Vivamus sit amet lectus vulputate, blandit libero sit amet.</p>
+                <form action="" method="get">
+                    <label for="nombre-1">Nombre:</label>
+                    <input type="text" id="nombre-1" name="nombre-1" value="">
+                    <label for="correo">Email:</label>
+                    <input type="email" id="correo" name="correo" value="">
+                    <label for="comentario">Comentario:</label>
+                    <textarea name="comentario" rows="10" cols="30" maxlength="50">
+                       Escribe aquí tu comentario...
+                    </textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formularios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor urna, ornare ac condimentum ac, efficitur eu erat. Integer mattis magna sed hendrerit pharetra. In hac habitasse platea dictumst. Donec efficitur turpis vitae erat fringilla, ac varius libero eleifend. Suspendisse varius lectus eget orci tempus consequat. Proin interdum auctor vulputate. Nullam mattis sem sit amet bibendum convallis. Mauris sodales massa augue, et dictum erat placerat ac. Proin congue, massa ut sodales viverra, sapien velit commodo leo, et volutpat velit dolor at ipsum. Fusce eu sollicitudin neque, eget mollis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis nisi turpis, et porta tortor sollicitudin in. Vivamus sit amet lectus vulputate, blandit libero sit amet.</p>
+                <form action="" method="get">
+                    <label for="nombre-2">Nombre:</label>
+                    <input type="text" id="nombre-2" name="nombre-2" value="">
+                    <label for="genero">Genero:</label>
+                    <br><br>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">Otro</label>
+                    <br><br>
+                    <label for="pais">¿De que país nos visitas?</label>
+                    <select id="pais" name="pais">
+                        <option value="Alemania">Alemania</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="España">España</option>
+                        <option value="mexico">México</option>
+                        <option value="paraguay">Paraguay</option>
+                    </select>
+                    <br><br>
+                    <label for="Turismo">Razon por lo que visitas nuestro país</label>
+                    <br><br>
+                    <input type="checkbox" id="turismo-1" value="cultura">
+                    <label for="turismo1">Cultura</label>
+                    <input type="checkbox" id="turismo-2" name="turismo-2" value="gastronomia">
+                    <label for="turismo2">Gatronomia</label>
+                    <input type="checkbox" id="turismo-3" name="turismo-3" value="ecoturismo">
+                    <label for="turismo3">Ecoturismo</label>
+                    <input type="checkbox" id="turismo-4" name="turismo-4" value="arte">
+                    <label for="turismo4">Arte</label>
+                    <input type="checkbox" id="turismo-5" name="turismo-5" value="arquitectura">
+                    <label for="turismo5">Arquitectura</label>
+                    <input type="checkbox" id="turismo-6" name="turismo-6" value="historia">
+                    <label for="turismo6">Histotia</label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formularios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor urna, ornare ac condimentum ac, efficitur eu erat. Integer mattis magna sed hendrerit pharetra. In hac habitasse platea dictumst. Donec efficitur turpis vitae erat fringilla, ac varius libero eleifend. Suspendisse varius lectus eget orci tempus consequat. Proin interdum auctor vulputate. Nullam mattis sem sit</p>
+                <form>
+                <label for="phone">Enter a phone number:</label><br><br>
+                <input type="tel" id="phone" name="phone" placeholder="12-45-67-23-74" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+                <small>Formato solicitado: 12-45-67-23-74</small><br><br>
+                <input type="submit" value="Submit">
+                </form>
+                <p>amet bibendum convallis. Mauris sodales massa augue, et dictum erat placerat ac. Proin congue, massa ut sodales viverra, sapien velit commodo leo, et volutpat velit dolor at ipsum. Fusce eu sollicitudin neque, eget mollis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis nisi turpis, et porta tortor sollicitudin in. Vivamus sit amet lectus vulputate, blandit libero sit amet.</p>
+                <form action="" method="get">
+                    <label for="colorfavorito">Selecciona tú color favorito</label>
+                    <input type="color" id="color-favorito" name="color-favorito" value="Color">
+                    <input type="submit" value="Enviar">
+                </form>
+                
+            </section>
+            <section>
+                <h2>Formularios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor urna, ornare ac condimentum ac, neque, eget mollis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis nisi turpis, et porta tortor sollicitudin in. Vivamus sit amet lectus vulputate, blandit libero sit amet.</p>
+                <form action="" method="get">
+                    <label for="fecha">Fecha:</label>
+                    <input type="dia" id="bmes" name="fecha">
+                    <input type="submit" value="Enviar">
+                </form>
+                
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Michelle Monserrat Camacho Máximo</h6>
+        </footer>
+        
+    </body>
+</html>
+

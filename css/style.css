@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0; 
+    
+}
+header, nav, main, footer{
+    
+    background-color: #8fb1c1;S
+    color: whitesmoke;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+  
+}
+header{
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+}
+nav{
+  height: auto;
+  background-color: #8ecae6;
+  text-align: center;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #b75073;
+    width: 10%;
+    min-width: 100px;
+    padding:10px;
+    text-align: center;
+    border-radius: 30px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;*/
+    margin: 5px;
+    
+}
+nav, ul, li a:link, nav, ul, li a:visited{
+    text-decoration: none;
+    color: #19eef7;
+    
+}
+nav ul li:hover{
+    background-color: #196679;
+    
+}
+section{
+    background-color: #4d8d95;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    overflow: auto;
+    width: 80%;
+}
+h2{
+    margin-bottom: 30px;
+    color:azure;
+    font-family: "Playwrite IT Moderna", cursive;
+    letter-spacing: 4px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color:azure;
+}
+footer{
+    text-align: center;
+    height: 30px;
+    background-color: #00a896;
+    font-size: 30px;
+    color:honeydew;
+}
+table{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#tabla_1{
+    background-color: powderblue;
+    border:  5px solid #8aa7b1;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#tabla_1 th{
+    font-size: 20px;
+    background-color: lavenderblush;
+    color: #0e4c5c;
+}
+#tabla_1 th, #tabla_1 td{
+    border: 5px solid #00a896;
+    padding: 20px;
+}
+#tabla_cebra{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+#tabla_cebra th{
+    background-color: white
+}
+#tabla_cebra td, #tabla_cebras th{
+    padding: 10px;
+    border-width: 5px;
+    border-color: darkblue;
+    border-style: solid;
+}
+#tabla_cebra tbody tr:nth-child(odd){
+    background-color: lightsteelblue;
+}
+#tabla_cebra tbody tr:nth-child(ever){
+    background-color: #e7692e;
+}
+#tabla_hover{
+    width: 70%;
+    background-color: lightsteelblue;
+    color:midnightblue;
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+#tabla_hover th{
+    background-color: darkseagreen;
+    color: dimgrey;
+}
+#tabla_hover td, #tabla_hover th{
+    border-width: 2px;
+    border-color: darkgreen;
+    border-style: solid;
+    padding: 20px
+}
+
+
+#tabla_hover tr:hover{
+    background-color: cornflowerblue;
+    color:aqua;
+}
+img{
+    
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 20px
+    
+}
+main section{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+#img_gif{
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    margin-top: 20px;
+    color:azure;
+}
+.img-border-redondo{
+    
+   border-radius: 50%;
+}
+.img_flotante{
+    width: 30%;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+}
+.alineacion{
+    float:right;
+    margin: 0;
+}
+#fondo_box{
+    background-image: url("../imagenes/sialia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:midnightblue;
+    
+}
+
+.img_filter {
+    text-align: center;
+    
+}
+
+.img_filter p, .img_filter h2{
+    text-align: justify;
+}
+
+.img_filter img{
+    width: 20%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.section-filtros{
+    color:cyan;
+    text-align: center;
+}
+
+Form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: lightseagreen;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+label{
+    color: honeydew;
+    font-weight: bold;
+    font-size: 18px;
+}
+input,textarea,select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: oldlace;
+    color: seagreen;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 20px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: lightblue;
+    font-weight: bold;
+    color: darkslategray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus, textarea:focus, select:focus{
+    background-color: powderblue;
+    color: cadetblue;
+}
+input[type=radio], input[type=checkbox]{
+    width: 15%;
+}
+input[type=color]:focus,{
+    
+    padding: 10px;
+    background-color: blue;
+    color: darkslategray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+}
+input[type=color]{
+    background-color: powderblue;
+    color: cadetblue;
+}
+input[type=radio], input[type=color]{
+    width: 15%;
+}
